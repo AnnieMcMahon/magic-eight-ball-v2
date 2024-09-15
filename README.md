@@ -7,4 +7,4 @@ I created a simple simulation of the famous eight ball. This app was originally 
 * JavaScript
 * React
 
-Web page: [https://anniemcmahon.github.io/magic-eight-ball/](https://anniemcmahon.github.io/magic-eight-ball/).
+Web page: [https://magic-eight-ball-v2.vercel.app/](https://magic-eight-ball-v2.vercel.app/)
