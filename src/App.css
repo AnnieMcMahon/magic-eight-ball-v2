@@ -1,0 +1,76 @@
+#magic-ball-game {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#magic-ball-game #app-box {
+  width: 50%;
+  min-width: 420px;
+  border: solid 2px rgb(49, 41, 41);
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 0px 4px;
+}
+
+#magic-ball-game #magic-ball {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+#magic-ball-game #magic-ball-message {
+  margin: auto;
+  padding-top: 20%;
+  height: 200px;
+}
+
+#magic-ball-game p {
+  line-height: 200px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#magic-ball-game input {
+  width: 400px;
+}
+#magic-ball-game option,
+#magic-ball-game input,
+#magic-ball-game button,
+#magic-ball-game p,
+
+#magic-ball-game select {
+  font-size: 1rem;
+}
+
+#magic-ball-game button {
+  background-color: rgb(52, 139, 139);
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #magic-ball-game {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+  }
+
+  #magic-ball-game #app-box {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    border: none;
+    box-shadow: none;
+  }
+
+  #magic-ball-game input {
+    width: 300px;
+  }
+}
